@@ -69,10 +69,6 @@ def add_contact():
     phone = request.form['phone']
     birthday = request.form['birthday']
     photo = request.files['photo']
-
-
-## 사진저장
-
     if photo:
         photo_path = os.path.join(app.config['UPLOAD_FOLDER'], photo.filename)
         photo.save(photo_path)
