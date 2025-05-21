@@ -5,7 +5,6 @@
 기존의 https://github.com/ouseok00/webApp.git 을 확장해보려고 한다.
 
 1.웹브라우저에서 파일을 선택해서 서버로 전송한다.
-
 2. 서버는 이미지 파일을 /static/uploads 폴더에 저장한 후
 
 3. addbook.txt 파일에 이미지 이름을 저장하게 한다.
