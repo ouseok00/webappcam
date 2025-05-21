@@ -102,6 +102,8 @@ uploads 폴더에 이미지가 저장된 모습
 
 함수 추가
 
+![image](https://github.com/user-attachments/assets/09c9b33d-0b88-46f7-87eb-9c77f45525b8)
+
 # 전체코드
 ```
 <!DOCTYPE html>
@@ -264,6 +266,5 @@ if __name__ == '__main__':
     app.run(debug=True)
 ```
 
-![image](https://github.com/user-attachments/assets/09c9b33d-0b88-46f7-87eb-9c77f45525b8)
-
+## 실행화면
 ![image](https://github.com/user-attachments/assets/f7479cda-6299-4a86-8c65-df07c320fa35)
