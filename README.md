@@ -1,6 +1,6 @@
 # webappcam
 
-##index.html
+## index.html
 
 기존의 https://github.com/ouseok00/webApp.git 을 확장해보려고 한다.
 
@@ -45,7 +45,7 @@ action="/add" 폼을 제출하면 데이터를 /add 경로(Flask의 /add라우�
 method="post" 데이터를 서버로 보낼 때 HTTP POST 방식(숨겨진 방식, URL에 데이터가 노출되지 않음)으로 전송합니다.
 enctype="multipart/form-data" 이 속성이 있어야 파일 데이터가 서버로 전송됩니다.
 
-##app.py
+## app.py
 
 ```
 from flask import Flask, render_template, request, redirect, url_for
@@ -70,7 +70,9 @@ def add_contact():
     birthday = request.form['birthday']
     photo = request.files['photo']
 
- # 사진 저장
+
+## 사진저장
+
     if photo:
         photo_path = os.path.join(app.config['UPLOAD_FOLDER'], photo.filename)
         photo.save(photo_path)
