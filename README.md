@@ -6,9 +6,9 @@
 
 1.웹브라우저에서 파일을 선택해서 서버로 전송한다.
 
-2. 서버는 이미지 파일을 /static/uploads 폴더에 저장한 후
+2.서버는 이미지 파일을 /static/uploads 폴더에 저장한 후
 
-3. addbook.txt 파일에 이미지 이름을 저장하게 한다.
+3.addbook.txt 파일에 이미지 이름을 저장하게 한다.
 ![image](https://github.com/user-attachments/assets/2a5508db-5c6a-4f8d-ac9d-424e3fe04874)
 
 ```
@@ -54,7 +54,6 @@ import os
 
 app = Flask(__name__)
 
-## 폴더 설정
 UPLOAD_FOLDER = 'static/uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
@@ -89,5 +88,6 @@ if __name__ == '__main__':
 ![image](https://github.com/user-attachments/assets/e8885c88-cc2e-4abd-ba4b-e1305504c7c2)
 
 uploads 폴더에 이미지가 저장된 모습
+
 ![image](https://github.com/user-attachments/assets/97c2053b-78e6-4fbc-ae7d-acc13090bc4d)
 
